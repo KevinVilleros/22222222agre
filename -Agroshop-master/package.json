@@ -1,0 +1,29 @@
+{
+  "name": "agroshop",
+  "version": "1.0.0",
+  "description": "Tienda de productos agrícolas frescos",
+  "keywords": [
+    "agroshop",
+    "agricola",
+    "tienda",
+    "ecommerce"
+  ],
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.4",
+    "@capacitor/core": "^7.4.4"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
